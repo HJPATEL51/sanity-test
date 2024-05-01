@@ -1,0 +1,460 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Download Template</title>
+    <style>
+      @font-face { font-family: "gtamerica-thin"; src: url({{GtAmericaThinBase64}});
+      font-display: swap; } @font-face { font-family: "RecklessNeue-Thin"; src:
+      url({{RecklessNeueThinBase64}}); font-display: swap; } @font-face {
+      font-family: "Carrosserie"; src: url({{CarrosserieBoldBase64}});
+      font-display: swap; } @font-face { font-family: "GTAmerica-Regular"; src:
+      url({{GTAmericaRegularBase64}}); font-display: swap; }
+    </style>
+  </head>
+  <body style="padding: 0; margin: 0; box-sizing: border-box">
+    <div style="width: 612px; height: 792px; margin: auto">
+      <div
+        style="width: 100%; height: 100%; display: flex; flex-direction: column"
+      >
+        <div
+          style="
+            width: 612px;
+            height: 79px;
+            background: #bf3940;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 6px;
+            padding: 15px 0px;
+          "
+        >
+          <img
+            src="https://mdj.arrowebs.net/images/pdf-header-logo.svg"
+            width="252px"
+            height="29px"
+            alt=""
+          />
+          <span
+            style="font-size: 10px; color: white; font-family: gtamerica-thin"
+          >
+            {{date}}
+          </span>
+        </div>
+        <div
+          style="
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            background: white;
+            justify-content: center;
+            align-items: center;
+          "
+        >
+          <div
+            style="
+              padding: 12px 31px;
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+              justify-content: center;
+              gap: 6px;
+            "
+          >
+            <div
+              style="
+                width: max-content;
+                padding: 6px 15px;
+                border: 1px solid #eef0f6;
+                border-radius: 35px;
+                background: #32aa49;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+              "
+            >
+              <div style="display: flex; align-items: center; gap: 5px">
+                <img
+                  alt=""
+                  src="data:image/png;base64,{{rightIcon}}"
+                  width="12px"
+                  height="12px"
+                />
+                <div
+                  style="
+                    color: white;
+                    font-size: 11px;
+                    font-family: Carrosserie;
+                    margin-top: 3px;
+                  "
+                >
+                  OPTION
+                  {{trueOption}}
+                </div>
+              </div>
+            </div>
+            <span
+              style="
+                font-size: 28px;
+                line-height: 30px;
+                font-weight: 400;
+                color: #22467c;
+                font-family: RecklessNeue-Thin;
+              "
+            >
+              {{english}}
+            </span>
+            <span
+              style="
+                font-size: 34px;
+                line-height: 37px;
+                font-weight: 300;
+                font-family: RecklessNeue-Thin;
+                color: #36a93f;
+                font-style: italic;
+              "
+            >
+              {{titleFrench}}
+            </span>
+            <div
+              style="
+                font-size: 14px;
+                color: #636466;
+                line-height: 16px;
+                font-weight: 400;
+                font-family: Voces, sans-serif;
+              "
+            >
+              {{phonetic}}
+            </div>
+          </div>
+          <span style="width: 100%; border: 1px solid #eef0f6"></span>
+          <div
+            style="
+              padding: 12px 24px;
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+              justify-content: center;
+              gap: 10px;
+            "
+          >
+            <div
+              style="
+                font-size: 10px;
+                font-weight: 700 !important;
+                color: #22467c;
+                line-height: 14px;
+                font-family: GTAmerica-Regular;
+              "
+            >
+              {{grammarBlurb}}
+            </div>
+            <span
+              style="
+                font-size: 10px;
+                margin-bottom: 15px;
+                color: #636466;
+                line-height: 14px;
+                font-weight: 300;
+                font-family: gtamerica-thin;
+                text-align: center;
+              "
+            >
+              {{description}}
+            </span>
+          </div>
+          <div
+            style="
+              width: 100%;
+              background: #fafafa;
+              padding-top: 20px;
+              text-align: center;
+            "
+          >
+            <span
+              style="
+                font-size: 16px;
+                color: #dc1b30;
+                line-height: 22px;
+                font-family: Carrosserie;
+                font-weight: 700;
+              "
+            >
+              THE OTHER OPTIONS
+            </span>
+            <div
+              style="
+                margin-top: 20px;
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+                padding: 0px 20px;
+              "
+            >
+              <div
+                style="
+                  display: flex;
+                  flex-direction: column;
+                  gap: 10px;
+                  align-items: center;
+                  justify-content: center;
+                "
+              >
+                <div
+                  style="
+                    width: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    box-shadow: inset 50em 0 0 0 #eef5fb;
+                    padding-bottom: 5px;
+                    border-radius: 20px;
+                  "
+                >
+                  <div
+                    style="
+                      display: flex;
+                      flex-direction: column;
+                      align-items: flex-start;
+                      padding: 15px;
+                      gap: 6px;
+                      border-radius: 20px;
+                      background-color: white;
+                      border: 1px solid #eef0f6;
+                    "
+                    className="flex flex-col items-start p-[15px] gap-[12px] rounded-[20px] bg-white"
+                  >
+                    <div style="display: flex; gap: 8px; align-items: center">
+                      <img
+                        src="data:image/png;base64,{{wrongIcon}}"
+                        alt=""
+                        width="10px"
+                        height="10px"
+                      />
+                      <div
+                        style="
+                          font-size: 14px;
+                          color: #dc1b30;
+                          font-family: Carrosserie;
+                          font-weight: 700;
+                          margin-top: 3px;
+                        "
+                      >
+                        OPTION
+                        {{falseOption1}}
+                      </div>
+                    </div>
+                    <span
+                      style="
+                        font-size: 16px;
+                        color: #22467c;
+                        line-height: 18px;
+                        font-family: RecklessNeue-Thin;
+                      "
+                    >
+                      {{falseOptionTitle1}}
+                    </span>
+                    <span
+                      style="
+                        font-size: 10px;
+                        color: #636466;
+                        font-weight: 300;
+                        font-family: gtamerica-thin;
+                        line-height: 16px;
+                        text-align: left;
+                      "
+                    >
+                      {{falseOptionMeaning1}}
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div
+                style="
+                  display: flex;
+                  flex-direction: column;
+                  gap: 10px;
+                  align-items: center;
+                  justify-content: center;
+                "
+              >
+                <div
+                  style="
+                    width: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    box-shadow: inset 50em 0 0 0 #eef5fb;
+                    padding-bottom: 5px;
+                    border-radius: 20px;
+                  "
+                >
+                  <div
+                    style="
+                      display: flex;
+                      flex-direction: column;
+                      align-items: flex-start;
+                      padding: 15px;
+                      gap: 6px;
+                      border-radius: 20px;
+                      background-color: white;
+                      border: 1px solid #eef0f6;
+                    "
+                    className="flex flex-col items-start p-[15px] gap-[12px] rounded-[20px] bg-white"
+                  >
+                    <div style="display: flex; gap: 8px; align-items: center">
+                      <img
+                        src="data:image/png;base64,{{wrongIcon}}"
+                        alt=""
+                        width="10px"
+                        height="10px"
+                      />
+                      <div
+                        style="
+                          font-size: 14px;
+                          color: #dc1b30;
+                          font-family: Carrosserie;
+                          font-weight: 700;
+                          margin-top: 3px;
+                        "
+                      >
+                        OPTION
+                        {{falseOption2}}
+                      </div>
+                    </div>
+                    <span
+                      style="
+                        font-size: 16px;
+                        color: #22467c;
+                        line-height: 18px;
+                        font-family: RecklessNeue-Thin;
+                      "
+                    >
+                      {{falseOptionTitle2}}
+                    </span>
+                    <span
+                      style="
+                        font-size: 10px;
+                        color: #636466;
+                        font-weight: 300;
+                        font-family: gtamerica-thin;
+                        line-height: 16px;
+                        text-align: left;
+                      "
+                    >
+                      {{falseOptionMeaning2}}
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div
+                style="
+                  display: flex;
+                  flex-direction: column;
+                  gap: 10px;
+                  align-items: center;
+                  justify-content: center;
+                "
+              >
+                <div
+                  style="
+                    width: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    box-shadow: inset 50em 0 0 0 #eef5fb;
+                    padding-bottom: 5px;
+                    border-radius: 20px;
+                  "
+                >
+                  <div
+                    style="
+                      display: flex;
+                      flex-direction: column;
+                      align-items: flex-start;
+                      padding: 15px;
+                      gap: 6px;
+                      border-radius: 20px;
+                      background-color: white;
+                      border: 1px solid #eef0f6;
+                    "
+                    className="flex flex-col items-start p-[15px] gap-[12px] rounded-[20px] bg-white"
+                  >
+                    <div style="display: flex; gap: 8px; align-items: center">
+                      <img
+                        src="data:image/png;base64,{{wrongIcon}}"
+                        alt=""
+                        width="10px"
+                        height="10px"
+                      />
+                      <div
+                        style="
+                          font-size: 14px;
+                          color: #dc1b30;
+                          font-family: Carrosserie;
+                          font-weight: 700;
+                          margin-top: 3px;
+                        "
+                      >
+                        OPTION
+                        {{falseOption3}}
+                      </div>
+                    </div>
+                    <span
+                      style="
+                        font-size: 16px;
+                        color: #22467c;
+                        line-height: 18px;
+                        font-family: RecklessNeue-Thin;
+                      "
+                    >
+                      {{falseOptionTitle3}}
+                    </span>
+                    <span
+                      style="
+                        font-size: 10px;
+                        color: #636466;
+                        font-weight: 300;
+                        font-family: gtamerica-thin;
+                        line-height: 16px;
+                        text-align: left;
+                      "
+                    >
+                      {{falseOptionMeaning3}}
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div style="width: 100%; padding: 20px 0px; background: #22467c">
+            <div
+              style="
+                padding: 0px 31px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+              "
+            >
+              <img
+                src="https://mdj.arrowebs.net/images/pdf-footer-logo.svg"
+                width="148px"
+                height="20px"
+                alt=""
+              />
+              <span
+                style="
+                  font-size: 8px;
+                  line-height: 11px;
+                  color: white;
+                  font-family: gtamerica-thin;
+                "
+              >
+                This is a disclaimer text ® 2024
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
